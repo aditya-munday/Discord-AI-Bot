@@ -1,0 +1,209 @@
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+
+# =========================
+# IDE - CLion / IntelliJ
+# =========================
+.idea/
+*.iml
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Build Directories
+# =========================
+cmake-build-*/
+build/
+Build/
+out/
+bin/
+obj/
+target/
+
+# =========================
+# CMake
+# =========================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+install_manifest.txt
+Testing/
+CMakeScripts/
+cmake-build-debug/
+cmake-build-release/
+
+# =========================
+# Ninja
+# =========================
+.ninja_deps
+.ninja_log
+build.ninja
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# =========================
+# Executables
+# =========================
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# =========================
+# Object Files
+# =========================
+*.o
+*.obj
+*.a
+*.lib
+*.lo
+*.la
+
+# =========================
+# Debug Symbols
+# =========================
+*.pdb
+*.idb
+*.dSYM/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+*.stackdump
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+*.orig
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# API Keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# =========================
+# Cache
+# =========================
+.cache/
+.cache-loader/
+.cache/*
+*.cache
+
+# =========================
+# Coverage
+# =========================
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# =========================
+# Python (because somehow
+# every project becomes
+# part Python eventually)
+# =========================
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# =========================
+# Node.js (same story)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Discord Bot Config
+# =========================
+config.json
+config.yaml
+config.yml
+secrets.json
+tokens.json
+credentials.json
+
+# =========================
+# Runtime Data
+# =========================
+data/
+temp/
+tmp/
+
+# =========================
+# JetBrains
+# =========================
+.idea_modules/
+atlassian-ide-plugin.xml
+workspace.xml
+tasks.xml
+usage.statistics.xml
+shelf/
+
+# =========================
+# Generated Files
+# =========================
+generated/
+dist/
+
+# =========================
+# Ignore everything named
+# "secret" because humans
+# love naming sensitive
+# files "secret".
+# =========================
+*secret*
+*token*
+*password*
